@@ -8,13 +8,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    var time = $('#carousel-container').getTimeLeft();
+    console.log('time: ', time);
+  </script>
   </head>
   <body>
 
   <div class="container">
     <h2>Christin Yang's Carousel Assessment</h2>
 
-    <div id="carousel-container" class="carousel slide" data-ride="carousel">
+    <div id="carousel-container" class="carousel slide" data-ride="carousel" data-interval="5000">
       <ol class="carousel-indicators">
         <li data-target="#carousel-container" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-container" data-slide-to="1"></li>
