@@ -1,0 +1,33 @@
+$max-width: 1000px;
+$max-width-responsive:6.25rem;
+
+#carousel-container{
+  max-width: $max-width;
+  margin: auto;
+}
+
+.carousel-indicators{
+  li{
+    img{
+     max-width: $max-width-responsive;
+     height: auto;
+     overflow: hidden;
+     vertical-align: middle;
+     border-style: none;
+     position: absolute;
+   }
+  }
+}
+
+.carousel-indicators{
+  li{
+    height: auto;
+    width: 8.25rem;
+    max-width: $max-width-responsive;
+    border: none;
+    position: relative;
+    margin-right: 10%;
+    margin-left: $max-width-responsive !important;
+
+  }
+}
